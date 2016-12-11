@@ -13,12 +13,6 @@ h3 {
     font-family: 'Varela Round', sans-serif;
 }
 
-/* game area padding */
-
-#question, #answer {
-    padding: 1em;
-}
-
 /* loading spinner */
 
 .loader {
@@ -42,4 +36,10 @@ h3 {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+}
+
+/* padding around aside */
+
+aside {
+    padding: 1em 1em 0 1em;
 }
