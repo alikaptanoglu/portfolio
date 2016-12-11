@@ -38,8 +38,8 @@ h3 {
     border-radius: 20px;
 }
 
-/* padding around aside */
+/* padding below main section */
 
-aside {
-    padding: 1em 1em 0 1em;
+.col-md-8 {
+    padding-bottom: 2em;
 }
