@@ -120,7 +120,7 @@
         gameContent = '<h3 class="text-center">';
         if (score == 100) {
             gameContent += 'Congratulations!</h3><p class="text-center">You got a perfect score.</p>';
-        } else if (score > 66) {
+        } else if (score >= 80) {
             gameContent += 'Great job!</h3><p class="text-center">You got a ' + score + '%.</p>';
         } else {
             gameContent += 'Game over!</h3><p class="text-center">You got a ' + score + '%.</p>';
