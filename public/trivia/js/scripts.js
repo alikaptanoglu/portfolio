@@ -90,7 +90,7 @@
         } else {
             answerContent += 'panel-danger"><div class="panel-heading"><h3 class="panel-title">You got it wrong.</h3></div><div class="panel-body">The correct answer was "' + correctAnswer + '."</div>';
         }
-        answerContent += '</div><button id="next" class="btn btn-primary">Next <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></button>';
+        answerContent += '</div><button id="next" class="btn btn-primary pull-right">Next <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></button>';
         $('#answer').html(answerContent);
 
         $("#next").click(function() {

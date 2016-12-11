@@ -13,6 +13,20 @@ h3 {
     font-family: 'Varela Round', sans-serif;
 }
 
+/* padding below main section */
+
+#main {
+    padding-bottom: 5em;
+}
+
+/* rounder buttons */
+
+.choice, #next, #start {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
 /* loading spinner */
 
 .loader {
@@ -28,18 +42,4 @@ h3 {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
-
-/* rounder buttons */
-
-.choice, #next, #start {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-}
-
-/* padding below main section */
-
-.col-md-8 {
-    padding-bottom: 2em;
 }
