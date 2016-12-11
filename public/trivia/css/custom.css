@@ -1,0 +1,45 @@
+/* background and fonts */
+
+body {
+    background-color: #f5f5f5; /* light grey */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* game area padding */
+
+#question, #answer {
+    padding: 1em;
+}
+
+/* loading spinner */
+
+.loader {
+    margin: 2em auto;
+    border: 5px solid #dddddd; /* light grey */
+    border-top: 5px solid #92ce92; /* light green */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* rounder buttons */
+
+.choice, #next, #start {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
