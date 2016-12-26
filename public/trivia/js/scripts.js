@@ -70,7 +70,7 @@
     }
 
     function checkAnswer(selectedAnswer, q) {
-        var correctAnswer = triviaData.results[q].correct_answer,
+        var correctAnswer = he.decode(triviaData.results[q].correct_answer),
             correct = false,
             answerContent = '';
 
