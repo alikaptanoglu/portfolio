@@ -1,0 +1,26 @@
+body {
+  background-color: #a9d6ed;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+
+#main {
+  background-color: #ededed;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: "Lobster", serif;
+}
+
+img {
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+th {
+  text-align: center;
+}

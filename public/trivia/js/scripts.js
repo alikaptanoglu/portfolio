@@ -141,4 +141,8 @@
             $(wrong).removeClass('btn-info').addClass('btn-danger');
         }
     }
+
+    // add current year to footer
+    var year = new Date().getFullYear();
+    $('#year').html('2016-' + year);
 }(jQuery));
