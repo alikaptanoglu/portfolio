@@ -1,0 +1,27 @@
+body {
+    background-image: url(../img/grumpycat.jpg);
+    background-repeat: no-repeat;
+    background-position: center 150px;
+}
+
+.error {
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: #804000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
