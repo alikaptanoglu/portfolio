@@ -148,11 +148,7 @@
 
                     <!-- footer -->
                     <hr />
-                    <footer>
-                        <p class="text-center text-muted">
-                            <small>Copyright &copy; <span id="year"></span> Hannah Shrimpton</small>
-                        </p>
-                    </footer>
+                    <?php include_once("footer.php") ?>
 
                 </div>
                 <!-- /.col-xs-10 /.col-xs-offset-1 /.col-sm-8 /.col-sm-offset-2 /.col-md-8 /.col-md-offset-2 -->
@@ -166,7 +162,6 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="js/portfolio.min.js"></script>
-        <script src="js/ga.js"></script>
 
     </body>
 

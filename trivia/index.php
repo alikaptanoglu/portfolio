@@ -44,11 +44,7 @@
                 </aside>
             </div>
 
-            <footer>
-                <p class="text-center text-muted">
-                    <small>Copyright &copy; <span id="year"></span> <a href="../" target="_blank">Hannah Shrimpton</a></small>
-                </p>
-            </footer>
+            <?php include_once("../footer.php") ?>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -57,7 +53,6 @@
         <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="../vendor/he/he.js"></script>
         <script src="js/trivia.min.js"></script>
-        <script src="../js/ga.js"></script>
     </body>
 
 </html>

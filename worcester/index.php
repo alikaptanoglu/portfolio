@@ -68,19 +68,11 @@
             <!-- /.row -->
 
             <!-- footer -->
-            <footer>
-                <p class="text-center text-muted">
-                    <small>Copyright &copy; <span id="year"></span> <a href="../" target="_blank">Hannah Shrimpton</a></small>
-                </p>
-            </footer>
+            <?php include_once("../footer.php") ?>
 
         </div>
         <!-- /.container-fluid -->
 
-        <!-- script for date footer -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/worcester.min.js"></script>
-        <script src="../js/ga.js"></script>
     </body>
 
 </html>
