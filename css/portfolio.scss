@@ -69,7 +69,7 @@ h2 {
   text-align: left;
 }
 
-#contact a {
+#connect a {
   border-radius: 30px;
 }
 
@@ -112,4 +112,10 @@ hr:after {
 
 .twitter {
   background-image: url("../images/contact-logos/twitter.png");
+}
+
+/* form styling */
+
+.form-control {
+    margin-bottom: 10px;
 }

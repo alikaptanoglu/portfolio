@@ -45,6 +45,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#portfolio"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>Portfolio</a></li>
                             <li><a href="#about"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>About</a></li>
+                            <li><a href="#connect"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Connect</a></li>
                             <li><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li>
                         </ul>
                     </div>
@@ -131,16 +132,37 @@
                     </div>
                     <!-- /.row -->
 
-                    <!-- contact -->
+                    <!-- connect -->
                     <hr />
-                    <div class="row" id="contact">
+                    <div class="row" id="connect">
                         <div class="col-md-3">
-                            <h2>Reach out.</h2>
+                            <h2>Connect.</h2>
                         </div>
                         <div class="col-md-6">
                             <a href="https://github.com/hannahcodes" target="_blank" class="btn btn-default btn-lg btn-block contact-logo github">GitHub</a><br />
                             <a href="https://www.linkedin.com/in/hannahshrimpton" target="_blank" class="btn btn-default btn-lg btn-block contact-logo linkedin">LinkedIn</a><br />
                             <a href="https://twitter.com/hannahcodes" target="_blank" class="btn btn-default btn-lg btn-block contact-logo twitter">Twitter</a>
+                        </div>
+                        <!-- /.col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+
+                    <!-- contact -->
+                    <hr />
+                    <div class="row" id="contact">
+                        <div class="col-md-3">
+                            <h2>Contact me.</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="https://formspree.io/hannah@hannahshrimpton.com">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Your name"/>
+                                    <input type="email" name="_replyto" class="form-control" placeholder="Your email address"/>
+                                    <input type="hidden" name="_subject" value="Submission from HannahShrimpton.com" />
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Your message"></textarea>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </div>
+                            </form>
                         </div>
                         <!-- /.col-md-6 -->
                     </div>
