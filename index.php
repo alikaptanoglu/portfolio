@@ -151,7 +151,7 @@
                     <hr />
                     <div class="row" id="contact">
                         <div class="col-md-3">
-                            <h2>Contact me.</h2>
+                            <h2>Reach out.</h2>
                         </div>
                         <div class="col-md-6">
                             <form action="https://formspree.io/hannah@hannahshrimpton.com" method="POST">
