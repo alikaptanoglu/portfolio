@@ -154,7 +154,7 @@
                             <h2>Contact me.</h2>
                         </div>
                         <div class="col-md-6">
-                            <form action="https://formspree.io/hannah@hannahshrimpton.com">
+                            <form action="https://formspree.io/hannah@hannahshrimpton.com" method="POST">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Your name"/>
                                     <input type="email" name="_replyto" class="form-control" placeholder="Your email address"/>
