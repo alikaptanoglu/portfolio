@@ -3,8 +3,8 @@
 <footer>
     <p class="text-center text-muted">
         <small>Copyright &copy; <?php
-            $thisYear = (int)date('Y');
-            echo "2016 - " . $thisYear;
+            $year = (int)date("Y");
+            echo "2016 - " . $year;
          ?> Hannah Shrimpton</small>
     </p>
 </footer>
